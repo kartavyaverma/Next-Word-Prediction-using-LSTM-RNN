@@ -12,7 +12,7 @@ with open("models/tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 
 # Set max length (same as training)
-max_len = 17   # ⚠️ change this to your actual max_len
+max_len = 17 
 
 # Function to predict next word
 def predict_next_word(text):
