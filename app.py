@@ -26,7 +26,7 @@ def predict_next_word(text):
             return word
 
 # UI
-st.title("🧠 Next Word Prediction (LSTM)")
+st.title("Next Word Prediction (LSTM)")
 st.write("Enter a sentence and predict the next word")
 
 input_text = st.text_input("Enter text:")
